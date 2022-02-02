@@ -1,0 +1,52 @@
+
+body{
+    background-image:url("NASA_1600x900.jpg");
+}
+h1{
+    background-color: rgba(255, 174, 0, 0.692);
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 24px;  
+    animation-name: heading;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+}
+hr{
+    border-style: dashed;
+    border-color: rgb(66, 63, 21);
+    border-width: 3px;
+    border-top-width: 0px;
+}
+.format{
+    font: bolder;
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 33%;
+    margin-right: 33%;
+    background-color: burlywood;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+
+}
+@keyframes slidein {
+    from{
+        margin-top: 100%;
+    }to{
+        margin-top: 0%;
+    }
+}
+@keyframes heading {
+    from{
+        margin-left: 100%;
+    }to{
+        margin-left: 0%;
+    }
+}
+.submitbutton{
+    font-size: 15px;
+    background-color: khaki;
+    width: 200px;
+}
+submitbutton:hover{
+    font-size: 30px;
+    background-color: chocolate;
+}
